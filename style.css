@@ -1,0 +1,93 @@
+body{
+  background-color: #2E2E2E;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100svh;
+  overflow:hidden
+}
+
+
+main{
+  display:flex;
+  flex-direction: column;
+  background-color: black;
+  width:90%;
+  max-width:280px;
+  border-radius: 40px;
+  justify-content: center;
+  padding:0.3rem;
+  outline:2.3px solid white
+}
+
+
+.btn-style{
+  border-radius: 50%;;
+  width:2.5rem;
+  height:2.5rem;
+  padding:1.8rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:20px;
+  font-size:20px;
+  margin-left:0.4rem;
+  border:none;
+  cursor:pointer
+  } 
+
+.btn-style:active{
+  opacity:0.9
+}
+
+.btns{
+  max-width:320px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+
+}
+
+
+
+
+.gray {
+  background-color: hsl(0, 0%, 16%);
+  color: white;
+}
+
+.blue {
+  background-color: #00FFFF;
+}
+
+.blue:active{
+  opacity:0.8
+}
+
+.lightgray {
+  background-color: rgb(174, 172, 172);
+}
+.output{
+  font-size: 3.8rem;
+  padding-top: 4rem; /* Adjust the padding to align properly */
+  color: white;
+  width: 100%;
+  text-align: right;
+  font-family: Arial;
+  color: lightgray;
+  padding-top:6.7rem
+}
+
+div input{
+  margin: 0;
+  margin-bottom: 4px;
+  background-color: transparent;
+  border: none;
+  color: cyan;
+  font-size: 3.8rem;
+  width: calc(100% - 20px); /* Adjust width to make room for buttons */
+  text-align: right;
+  outline: none;
+  padding-right: 20px;
+  padding-bottom:6px;
+}
